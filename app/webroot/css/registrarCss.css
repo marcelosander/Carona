@@ -1,0 +1,99 @@
+.cabecalho{
+      background-color: #C1CDC1;
+      height:50px;
+      text-align: center;
+      font: bold 30px/50px sans-serif;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border-bottom: 1px solid #B5B5B5;
+      box-shadow: 1px 0px 3px gray;
+      color: #555555;
+      text-shadow: 1px 0px 3px white;
+    }
+.sombra{
+      background-color:#003D4C;
+      width: 85%;
+      height: 80%;
+      margin: 10px 0px 0px;
+      border-radius: 8px;
+    }
+.principal { 
+	background-color:#E0EEE0;
+	margin: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px black;
+	overflow: hidden;
+}
+.ladoA { 
+	position:absolute;
+	background-color:#E0EEE0;
+	width: 500px;
+    height:500px;
+}
+.ladoB { 
+	position:relative;
+	margin-left: 50%; 
+	background-color:#E0EEE0;
+	width: 500px;
+    height:500px;
+}
+.campos{
+	margin: 10px;
+	padding: 2px;
+  	width: 475px;
+  	height:90px;
+  	background-color:#C1CDC1;
+  	border-radius: 3px;
+}
+.camposImagem{
+	margin: 10px;
+	padding: 2px;
+  	width: 475px;
+  	height:130px;
+  	background-color:#C1CDC1;
+  	border-radius: 3px;
+}
+.campos input{
+  	width:445px;
+  	height:40px;
+  	padding-left: 10px;
+  	font: normal 20px sans-serif;
+}
+.campos hover{
+  	background-color: #e0f1fc;
+}
+.camposRadio {
+	position:absolute;
+	width:150px;
+  	height:120px;
+  	background-color:#C1CDC1;
+  	border-radius: 3px;
+}
+.dupla{
+	display: inline-block;
+	padding: 0px;
+	margin-left:10px;
+}
+.camposData {
+	font: bold 14px verdana;
+	position:relative;
+	left: 58%;
+	width:290px;
+  	height:120px;
+  	background-color:#C1CDC1;
+  	border-radius: 3px;
+}
+.camposData .input{
+	padding: 10px;
+}
+fieldset legend {
+	padding: 0px;
+	color: #444;
+	font: bold 16px verdana;
+}
+.botao{
+  	margin-left: 2px;
+  	padding: 0px;
+  	font: bold 20px sans-serif;
+  	border-radius: 25px;
+}
